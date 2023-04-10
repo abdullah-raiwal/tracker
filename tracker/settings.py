@@ -19,6 +19,9 @@ WSGI_APPLICATION = 'vercel_app.wsgi.app'
 INSTALLED_APPS = [
     "django.contrib.admin",
     'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'dj_rest_auth.registration',
     "django.contrib.auth",
     "django.contrib.contenttypes",
