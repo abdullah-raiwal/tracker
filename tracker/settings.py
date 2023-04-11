@@ -115,7 +115,7 @@ DATABASES = {
     # }
 
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': 'FmOSDIEuBnzHMmmYd4a7',
