@@ -72,12 +72,12 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
-CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_ALLOW_ALL = True
 
 
-CORS_ORIGIN_WHITELIST = [
-    'https://task-tracker-frontend.vercel.app/',
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'https://task-tracker-frontend.vercel.app/',
+# ]
 
 
 SIMPLE_JWT = {
